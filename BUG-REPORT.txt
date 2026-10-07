@@ -1,0 +1,22 @@
+RippinPluginMaker Public Preview 1 — feedback
+
+Preview package: 4.8.0-Preview.1 (app shows 4.8.0)
+Windows version:
+Java/JDK version:
+Paper/Minecraft version, if applicable:
+Java or Bedrock Edition, if applicable:
+Feature/page:
+
+Steps to reproduce:
+1.
+2.
+3.
+
+Expected result:
+Actual result:
+Exact error or relevant log excerpt:
+Screenshot, if relevant:
+Other server plugins/resource packs involved:
+Does it also happen in a new project/on a clean test server?
+
+Remove private addresses, passwords and access tokens before sharing.

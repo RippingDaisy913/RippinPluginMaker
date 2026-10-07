@@ -1,0 +1,9 @@
+CustomPluginMaker 3.1.0 additions
+Copyright (c) 2026 RippingDaisy913. All Rights Reserved.
+
+The new 3.1.0 launcher, HUD/Minimap Builder, HUD generator code, UI design,
+and related original additions are proprietary to RippingDaisy913 unless the
+copyright owner grants separate written permission.
+
+CustomPluginMaker 3.0.0 portions included with this project remain accompanied
+by their existing MIT license. Third-party components retain their own licenses.

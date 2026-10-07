@@ -1,0 +1,38 @@
+RippinPluginMaker 4.2.0 — third-party notices
+
+These components retain their own copyright and license terms. The proprietary
+product license does not restrict the permissions granted for these components.
+The bundled libraries are unmodified published binaries merged into the desktop
+JAR. No third-party source has been relicensed as RippingDaisy913 code.
+
+Gson 2.13.2 (com.google.code.gson:gson)
+Copyright (C) 2008 Google Inc.; subsequent contributions retain their notices.
+Apache License 2.0. Complete license: licenses/Gson-LICENSE.txt.
+Project: https://github.com/google/gson
+Source release: https://github.com/google/gson/tree/gson-parent-2.13.2
+
+SnakeYAML 2.5 (org.yaml:snakeyaml)
+Copyright (c) 2008, SnakeYAML; subsequent contributions retain their notices.
+Apache License 2.0. Complete license: licenses/Apache-2.0.txt.
+Project/source tag: https://bitbucket.org/snakeyaml/snakeyaml/src/snakeyaml-2.5/
+
+Error Prone annotations 2.41.0 (com.google.errorprone:error_prone_annotations)
+Copyright 2017 The Error Prone Authors; individual source notices are preserved
+upstream. Apache License 2.0. Complete license: licenses/ErrorProne-LICENSE.txt.
+Project/source tag: https://github.com/google/error-prone/tree/v2.41.0
+
+Gradle wrapper 9.1.0
+Copyright Gradle contributors. Apache License 2.0.
+Full license: licenses/Apache-2.0.txt.
+Preserved upstream distribution license/notice file: licenses/Gradle-NOTICES.txt.
+Project: https://github.com/gradle/gradle/tree/v9.1.0
+Only wrapper/bootstrap files are included here. A full Gradle distribution
+is downloaded by the wrapper when needed and carries its own component notices.
+The preserved full-distribution notice lists more components than are bundled
+in this desktop app; those notices are retained for attribution continuity.
+
+Generated projects download Paper/Fabric/Minecraft dependencies at build time.
+Those dependencies are not bundled in the desktop app. They keep their own
+licenses and platform terms. Generated projects include Gradle wrapper notices.
+The source recovery tool was used during development and is not distributed
+with this product. Java is supplied by the user and is not bundled here.

@@ -1,0 +1,68 @@
+RippinPluginMaker Product Use License
+Version 1.0 — RippinPluginMaker 4.2.0
+Copyright (c) 2026 RippingDaisy913. All Rights Reserved.
+
+1. Scope and ownership
+This license applies to the proprietary RippinPluginMaker application code,
+its original 3.1/4.x additions, new 4.2 additions, branding, and documentation
+(the "Product"). Ownership remains with the copyright holder. Receiving a
+copy of the Product or its source does not transfer ownership or make its
+proprietary portions open source.
+
+Preexisting MIT-licensed material and third-party components are excluded
+from these restrictions. Their separate licenses remain in force. See
+LICENSE-3.0-MIT.txt, the preserved additions notices, LICENSING.md, and
+THIRD-PARTY-NOTICES.txt for the component boundaries and applicable terms.
+Nothing here limits rights already granted for those excluded components.
+
+2. Permission to use the product
+If you lawfully obtain the Product from the copyright holder or an authorized
+source, you may install and run the unmodified compiled application for your
+own personal or commercial projects. You may make copies necessary for that
+use and for private backup, keeping the copyright and license notices.
+This is a nonexclusive permission to use the Product, not permission to
+publish its proprietary source, rebrand it, or sell copies of it.
+
+3. Proprietary code restrictions
+Without separate prior written permission from the copyright holder, you may
+not copy proprietary source into another product, publish or redistribute
+that source, modify or distribute modified Product binaries, sublicense or
+resell the Product, or remove its ownership notices. You may not decompile
+or reverse engineer proprietary portions except where applicable law
+permits that activity. These restrictions do not apply to separately licensed
+MIT/third-party material or permitted generated output under section 4.
+
+Source included for the copyright holder's development and maintenance does
+not grant other recipients permission to publish, fork, or reuse proprietary
+Product code. A source recipient may inspect it privately, retaining notices.
+The copyright holder may grant additional rights separately.
+
+4. Generated projects and user-created content
+You retain your rights in your input, project designs, configuration, and
+original code/assets. You may use, modify, build, publish, distribute, and
+sell plugins/mods and other projects generated through normal Product use.
+Where generated output contains Product-owned template code or starter
+assets, the copyright holder permits that output under the license included
+in the generated project. This permission covers the generated starter code
+and assets; it does not grant rights to the Product's generators, desktop
+interface, project-management code, or branding as an application.
+
+Generated Paper/HUD starter projects carry MIT notices. Fabric starter
+projects carry the license selected in the builder. Third-party dependencies,
+Minecraft/Fabric/Paper components, and externally supplied assets retain
+their own terms. No ownership of those components is claimed here.
+
+5. No warranty; limitation of liability
+To the extent permitted by applicable law, the Product is provided "AS IS"
+without warranty of any kind, express or implied, including merchantability,
+fitness for a particular purpose, and noninfringement. To the extent permitted
+by applicable law, the copyright holder is not liable for claims, damages, or
+other liability arising from the Product or its use. Nonwaivable rights under
+applicable law are unaffected.
+
+6. Reserved rights
+All rights not expressly granted are reserved. These terms do not replace
+the preserved open-source licenses or remove permissions granted for earlier
+MIT-licensed copies. Permission for future use of the proprietary Product
+ends upon a material violation of these terms; separately licensed component
+rights remain governed by their respective licenses.

@@ -1,0 +1,11 @@
+RippinPluginMaker 4.x additions
+Copyright (c) 2026 RippingDaisy913. All Rights Reserved.
+
+The new 4.x project-creator architecture, launcher, project-type selector,
+module system, UI design, Fabric Player Mod Maker, and related original 4.x
+additions are proprietary to RippingDaisy913 unless the copyright owner grants
+separate written permission.
+
+CustomPluginMaker 3.0.0 portions included with this project remain accompanied
+by their existing MIT license. CustomPluginMaker 3.1.x additions retain their
+existing license terms. Third-party components retain their own licenses.
