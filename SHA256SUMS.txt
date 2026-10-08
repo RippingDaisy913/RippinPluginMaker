@@ -1,1 +1,1 @@
-7c3224403b7ce56bceb57f902fc0b0d9007363adac4ff05459f1f57d62d7133d  RippinPluginMaker-4.8.0-Preview.1-Windows.zip
+3dc60214df96eb971e15b310aaf5bfab66fa1c9d73eb43cb642070b3e00c2c52  RippinPluginMaker-4.10.0-Windows.zip

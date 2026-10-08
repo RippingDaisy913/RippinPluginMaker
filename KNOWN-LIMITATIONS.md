@@ -1,15 +1,27 @@
-# Public Preview 1 — known limitations
+# Known limitations - 4.10.0 pre-release
 
-Copyright (c) 2026 RippingDaisy913. Product Use License; see LICENSE.
+- Automated checks and Java compilation do not establish Minecraft playtest
+  results. Actual Java/Bedrock rendering, shaders, performance and pack acceptance
+  need testing. The Bedrock top-left HUD is still awaiting an in-game retest;
+  sidebar is the available fallback.
+- The interactive preview uses synthetic terrain and does not connect to a live
+  world or test a controller. Actual controller navigation is unverified.
+- Terrain uses loaded chunks; cave mapping follows height layers. Test Nether,
+  End, caves and custom worlds before relying on their appearance.
+- Mob/player head icons remain queued. This release does not add them.
+- Minecraft/Paper 26.x builds need JDK 25. The app runs with Java 21+; Java and
+  target dependencies are not bundled. First builds may require downloads.
+- Build compiles saved project source. Apply Update Project after editor changes.
+  Existing client preferences can override generated Fabric defaults.
+- Install checks known processes and file identities/hashes. Custom launchers or
+  inaccessible process details can limit process detection. Stop the game/server
+  normally. Java pack replacement matches filenames, not arbitrary renamed copies.
+- Restore refuses modified installed files, damaged backups and occupied previous
+  filenames. It does not merge later edits. Keep backups and receipts.
+- Pack editing preserves existing dimensions and metadata; imported archives are
+  exported under new names. Online pack hosting remains managed separately.
+- Dependency ranges and runtime behavior still need verification. Fabric and
+  some other project types remain experimental; Paper is the primary path.
 
-- This is a test preview based on 4.8.0. The app is not signed and Java is not bundled. It runs on Windows with Java 21+; generated Paper 26.x builds need JDK 25 and first builds need internet.
-- Paper is the primary supported generation path. The Fabric builder is experimental: generated code was checked, but the full Fabric Loom build remains unverified in this environment. Some project-type pages are previews and do not generate projects yet.
-- Minimap graphics are a vanilla sidebar terrain grid, not a movable client HUD or a full world map. They show loaded surface terrain, not caves. Other sidebar plugins can compete for that display. AUTO can fall back to text.
-- The minimap sample in the app illustrates its appearance. It is not connected to a Minecraft world. Enable "Include Map / HUD in this plugin" to generate the feature.
-- Graphical map tiles require matching Java and Bedrock packs installed separately. Exporting a pack does not automatically host it or install it in Geyser. Start in text style; enable icons after the appropriate pack is installed.
-- Real Minecraft Java/Bedrock rendering, pack acceptance and native drag/drop still need in-game/manual testing. Automated and simulated checks cannot establish those results.
-- Open Design reopens maker-generated designs. Arbitrary existing plugin JARs cannot be converted automatically into editable visual projects. Check JAR inspects them.
-- Saving a design and building do not regenerate existing source. Use Update Project to apply feature changes, then install the new plugin JAR and restart the test server.
-- Server Essentials covers selected features; it is not a complete replacement for every EssentialsX command or module. Optional integrations need their corresponding server plugins.
-
-See VERIFICATION.md for what was actually tested.
+See VERIFICATION.md for exact checks and BUILD_INSTALL.md for tool behavior.
+Existing licenses and third-party notices remain applicable.

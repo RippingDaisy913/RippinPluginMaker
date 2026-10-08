@@ -1,25 +1,25 @@
-# Public Preview 1 — tester checklist
+# Testing 4.10.0
 
-Copyright (c) 2026 RippingDaisy913. Product Use License; see LICENSE.
+Use a separate Minecraft instance/server and keep backups.
 
-This package uses the same app binary as RippinPluginMaker 4.8.0.
-Please start with a new project and a separate test server.
+1. Extract the Windows ZIP and launch it with Java 21+; build 26.x targets with JDK 25.
+2. Open an existing design and confirm its command/settings remain. Change the
+   map command to a name such as atlas and change appearance. Save, preview/apply
+   Update Project and build. Test the chosen command and help in Paper/Bedrock.
+3. Refresh Build & Install and check output versions. Check a disposable plugins
+   or mods folder, review install and confirm. Verify unrelated files remain.
+   Restore using its receipt and confirm previous copies return. Do not use a
+   running Minecraft/server installation for this test.
+4. Edit map PNGs in Pack Editor, undo/redo, export under a new name, save source
+   backups and sync Java map art to Bedrock. Rebuild and accept both matching
+   packs. Check icons, priority and HUD/sidebar without covering the scoreboard.
+5. Try preview drag, click and wheel zoom, apply appearance, then test the actual
+   Fabric map with M. Check pan, zoom, waypoint click, saved preferences and terrain
+   in Overworld/Nether/End/caves. Check custom world linking.
+6. Test workflow Undo/Redo with field edits, examples, ordering, deletion and an
+   unfinished/disabled draft. Save/reopen to verify design persistence.
+7. Test controller access/navigation separately; it has not been hardware verified.
 
-1. **Launch:** extract all files, run `RippinPluginMaker.bat`, and check that the app opens. Dark is the default on a fresh install; existing appearance choices are remembered.
-2. **Simple Paper plugin:** enter a unique plugin name and package, select your Paper version, and add a command such as `hello` without a slash. Generate a project and build its JAR. Check that it loads and the command works.
-3. **Save and reopen:** save your design, close its tab, then use Open Design. Verify settings and table rows are retained. Try closing a changed tab and cancelling the close prompt.
-4. **Menu:** enable a menu, add a button and a message action, generate/build, then open it using its chosen command in Minecraft.
-5. **Minimap:** open `Examples/Minimap Starter.json`, generate/build, and install the resulting MapStarter JAR on your test server. Try `/minimap on`, `off`, `status`, `zoom 2` and `help`. Start in text style. Follow MAP_SETUP.md before testing icon style. Report Java and Bedrock results separately.
-6. **Update:** change a generated project's setting, use Update Project, inspect the proposed changes, apply and build. Confirm that a source backup is created. Keep any custom changes when resolving conflicts.
-7. **AFK/RTP, optional:** enable the selected feature or workflow, set corners in game, and check countdown cancellation on exit. CrateNova rewards require the CrateNova plugin and an existing key/crate; they are off by default.
-8. **Appearance:** try Light and Dark, switch feature pages, adjust scrolling, and close/reopen project tabs. Report unreadable controls or duplicate tabs.
-
-## Report a problem
-
-Copy BUG-REPORT.txt and fill it in. Give the steps and exact error message.
-For build failures, include the relevant app build log. For plugin failures,
-include the plugin's startup error from the test server log. A screenshot helps
-with display problems. Remove private addresses, passwords and access tokens.
-
-Send feedback to the person who shared this preview. No support address or
-automatic reporting service is configured in this preview package.
+Report failures in Issues using BUG-REPORT.txt. Include versions and exact steps;
+remove credentials and private addresses from logs. See VERIFICATION.md and
+KNOWN-LIMITATIONS.md for completed checks and remaining test scope.
